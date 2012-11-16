@@ -7,7 +7,7 @@ Product.create(:title => 'Wedding Bells',
             the artist friendship with a woman who survived breast cancer
             right before her wedding.
       </p>},
-               :image_url =>   '/images/wedding.jpg',
+               :image_url =>   'wedding.jpg',
                :price => 29.99)
 # . . .
 Product.create(:title => 'Jedi Baby-Daddy',
@@ -17,7 +17,7 @@ Product.create(:title => 'Jedi Baby-Daddy',
             son and when they went to watch the new StarWars movies at the theater
             together. It made him feel like a kid again.
       </p>},
-               :image_url => '/images/starwars.jpg',
+               :image_url => 'starwars.jpg',
                :price => 29.99)
 # . . .
 
@@ -28,7 +28,7 @@ Product.create(:title => 'Outlaw Panda',
             his realization that the Panda is nearly extinct. Just another
             animal with his back against the wall, fighting to survive.
       </p>},
-               :image_url => '/images/panda.jpg',
+               :image_url => 'panda.jpg',
                :price => 29.99)
 # . . .
 
@@ -39,7 +39,7 @@ Product.create(:title => 'Maid Well',
             Perception is such a powerful thing. What you see is not always
             what you get... and sometimes things are swept under the rug.
       </p>},
-               :image_url => '/images/maid.jpg',
+               :image_url => 'maid.jpg',
                :price => 39.99)
 # . . .
 
@@ -50,7 +50,7 @@ Product.create(:title => 'Boom Rat',
             things are better off unexplained.  Definitely the coolest
             rat on the block...
       </p>},
-               :image_url => '/images/boomrat.jpg',
+               :image_url => 'boom rat.jpg',
                :price => 39.99)
 # . . .
 
@@ -61,7 +61,7 @@ Product.create(:title => 'Change',
             and the obvious fact that sometimes it's about the "right" type
             of change provided to a person.
       </p>},
-               :image_url => '/images/beggar.jpg',
+               :image_url => 'beggar.jpg',
                :price => 49.99)
 # . . .
 
@@ -72,7 +72,7 @@ Product.create(:title => 'Balloon Girl',
             balloons and he loves watching her enjoy what she loves. It
             works out perfectly for both of them!
       </p>},
-               :image_url => '/images/balloongirl.jpg',
+               :image_url => 'balloon girl.jpg',
                :price => 49.99)
 
 
