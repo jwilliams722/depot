@@ -1,4 +1,6 @@
 class Product < ActiveRecord::Base
+
+  attr_accessible :image_url, :description, :price, :title, :quantity
   default_scope :order => 'title'
 
   has_many :line_items
