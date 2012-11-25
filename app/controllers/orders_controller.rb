@@ -2,7 +2,9 @@ class OrdersController < ApplicationController
   # GET /orders
   # GET /orders.json
   def index
-    @orders = Order.all
+    @orders = Order.paginate page: params[:page], order: 'created_at desc',
+    per_page: 10
+    #@orders = Order.all
 
     respond_to do |format|
       format.html # index.html.erb
@@ -24,7 +26,6 @@ class OrdersController < ApplicationController
   # GET /orders/new
   # GET /orders/new.json
   def new
-    @cart = current_cart
     if @cart.line_items.empty?
       redirect_to store_url, :notice => "Your cart is empty"
       return
